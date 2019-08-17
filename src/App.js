@@ -4,6 +4,10 @@ import Button from '@material-ui/core/Button';
 
 
 class App extends Component {
+
+  state = {
+    data: ''
+  }
   render() {
     return (
       <div>
