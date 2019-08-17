@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import Button from '@material-ui/core/Button';
 
-function App() {
-  return (
-    <div className="App">
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+         <div className="App">
     <h1>Which MacBook ???</h1>
  <Button variant="contained" color="primary" >Submit</Button>
     </div>
-  );
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
+
+
